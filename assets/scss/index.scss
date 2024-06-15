@@ -1,0 +1,17 @@
+@import './custom-scroll-bar';
+@import './scroll-bar';
+@import './font-face';
+@import './keen-slider';
+@import './custom';
+@import 'vue3-lottie/dist/style.css';
+@import './anti-alias';
+@import './tailwind';
+@import './skeleton';
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  @apply text-[15px];
+}
